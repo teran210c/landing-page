@@ -1,5 +1,6 @@
 import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Html, Head, Main, NextScript } from "next/document";
 
@@ -11,7 +12,8 @@ export default function Document() {
         <Navbar></Navbar>
         <HeroSection></HeroSection>
         <FeatureSection></FeatureSection>
-        <Main />
+        <Footer></Footer>
+        <Main></Main>
         <NextScript />
       </body>
     </Html>
