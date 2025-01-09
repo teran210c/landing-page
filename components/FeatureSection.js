@@ -6,13 +6,11 @@ const FeatureSection = () => {
       <section class="bg-white dark:bg-gray-900">
         <div class="container px-6 py-10 mx-auto">
           <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-            explore our <br /> awesome{" "}
-            <span class="underline decoration-blue-500">Components</span>
+          Características Clave
           </h1>
 
           <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-            quam voluptatibus
+          Descubre los elementos esenciales que mejorarán tu experiencia de aprendizaje y juego.
           </p>
 
           <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
@@ -41,13 +39,11 @@ const FeatureSection = () => {
               </span>
 
               <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                elegant Dark Mode
+                Estrategias Básicas
               </h1>
 
               <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+                Aprende los movimientos fundamentales y las tácticas iniciales para dominar el tablero.
               </p>
 
               <a
@@ -90,7 +86,7 @@ const FeatureSection = () => {
               </span>
 
               <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Easy to customiztions
+                Técnicas Avanzadas
               </h1>
 
               <p class="text-gray-500 dark:text-gray-300">
@@ -139,13 +135,11 @@ const FeatureSection = () => {
               </span>
 
               <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
-                Simple & clean designs
+                Práctica Interactiva
               </h1>
 
               <p class="text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+                Pon a prueba tus habilidades con ejercicios y partidas interactivas diseñadas para mejorar tu rendimiento.
               </p>
 
               <a
@@ -172,37 +166,7 @@ const FeatureSection = () => {
         </div>
       </section>
 
-      <div class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-8">
-        <div class="lg:w-72 px-6 lg:px-0">
-          <div class="p-2 bg-blue-600 rounded-lg shadow-lg sm:p-3">
-            <div class="flex flex-wrap items-center justify-between">
-              <a
-                target="_blank"
-                href="https://www.buymeacoffee.com/khatabwedaa"
-                class="flex items-center flex-1 w-0"
-              >
-                <span class="flex p-2 bg-blue-800 rounded-lg">
-                  <svg
-                    class="h-6 w-6 text-white"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5.12954 3.00772C5.48563 2.38457 6.14831 2 6.86603 2H17.134C17.8517 2 18.5144 2.38457 18.8704 3.00772L20.0133 5.00772C20.6612 6.14163 20.0618 7.51107 18.9235 7.89532C18.9276 7.97661 18.9269 8.0591 18.9209 8.14249L18.0638 20.1425C17.989 21.1891 17.1181 22 16.0689 22H7.9311C6.88182 22 6.01094 21.1891 5.93618 20.1425L5.07904 8.14249C5.07308 8.0591 5.07231 7.97661 5.07645 7.89531C3.93813 7.51105 3.33874 6.14162 3.98668 5.00772L5.12954 3.00772ZM7.07396 8L7.28824 11H16.7117L16.926 8H7.07396ZM7.71681 17L7.9311 20H16.0689L16.2831 17H7.71681ZM18.2768 6L17.134 4L6.86603 4L5.72317 6H18.2768Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </span>
-
-                <p class="ml-3 font-medium tracking-wide text-white truncate">
-                  By me a coffee
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };
