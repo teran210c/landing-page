@@ -32,11 +32,8 @@ export default function Post () {
                         <div key={post.id}>
                             <h2 className="tex-lg font-bold">{post.title}</h2>
                             <p>{post.body}</p>
-                        </div>
-                    
-                ))}
-        
-        
+                        </div>                    
+                ))}     
         </div>
     );
 }
