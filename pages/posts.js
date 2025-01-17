@@ -30,7 +30,7 @@ export default function Post () {
             >Cargar</button>
             {posts && posts?.length >0 && posts?.map( (post) => (                
                         <div key={post.id}>
-                            <h2 className="tex-lg font bold">{post.title}</h2>
+                            <h2 className="tex-lg font-bold">{post.title}</h2>
                             <p>{post.body}</p>
                         </div>
                     
