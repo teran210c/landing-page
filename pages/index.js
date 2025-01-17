@@ -5,6 +5,8 @@ import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Slider from "@/components/Slider";
+import LoginBtn from "@/components/Login-Btn";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,6 +23,7 @@ export default function Home() {
   return (
     <>
       <Navbar></Navbar>
+      <LoginBtn></LoginBtn>
       <HeroSection></HeroSection>
       <FeatureSection></FeatureSection>
       <Slider />
