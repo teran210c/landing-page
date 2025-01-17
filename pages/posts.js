@@ -12,12 +12,15 @@ export default function Post () {
        };
        updataData();
     }, []);
-    // const resetData = () => {
-    //     setPost([]);
-    // };
+    const resetData = () => {
+        setPost([]);
+    };
     return (
         <div>
             <h1>Posts</h1>
+            <button
+                onClick={()=>resetData()}
+            >Reset</button>
             {posts && posts?.length >0 && posts?.map( (post) => (                
                         <div key={post.id}>
                             <h2>{post.title}</h2>
