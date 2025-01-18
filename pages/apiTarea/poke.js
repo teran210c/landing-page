@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";  
 import Link from "next/link";
 
-export default function AapiTarea ApiTarea () {
+export default function ApiTarea () {
     const [pokemons, setPokemons]= useState([])
     const [loading, setLoading]= useState(true)
 
