@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Navbar></Navbar>
-      <LoginBtn></LoginBtn>
+      <LoginBtn/>
       <HeroSection></HeroSection>
       <FeatureSection></FeatureSection>
       <Slider />
